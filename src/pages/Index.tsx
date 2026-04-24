@@ -130,7 +130,7 @@ export default function Index() {
             <div className="w-8 h-8 border flex items-center justify-center" style={{ borderColor: GOLD }}>
               <div className="w-2.5 h-2.5" style={{ background: GOLD, clipPath: "polygon(50% 0%, 100% 100%, 0% 100%)" }} />
             </div>
-            <span className="font-display text-xl font-semibold tracking-wider" style={{ color: GOLD, fontFamily: "Cormorant Garamond, serif" }}>КовкаМастер</span>
+            <span className="font-display text-xl font-semibold tracking-wider" style={{ color: GOLD, fontFamily: "Cormorant Garamond, serif" }}>Студия ковки Белогорск</span>
           </button>
 
           <div className="hidden md:flex items-center gap-8">
@@ -196,7 +196,7 @@ export default function Index() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 pt-24 w-full">
           <div className="max-w-2xl animate-fade-up" style={{ animationFillMode: "both" }}>
             <p className="text-xs tracking-[0.35em] uppercase mb-8 font-heading" style={{ color: GOLD }}>
-              Художественная ковка · Ручная работа · С 2004 года
+              Художественная ковка · Белогорск, Крым · С 2004 года
             </p>
             <h1 className="font-display text-6xl md:text-8xl font-light leading-[0.9] mb-8 text-white" style={{ fontFamily: "Cormorant Garamond, serif" }}>
               Металл в<br />
@@ -521,9 +521,9 @@ export default function Index() {
             <RevealSection delay={200} className="lg:col-span-2">
               <div className="space-y-8 lg:pt-4">
                 {[
-                  { icon: "Phone", label: "Телефон", value: "+7 (495) 000-00-00" },
-                  { icon: "Mail", label: "Email", value: "info@kovkamaster.ru" },
-                  { icon: "MapPin", label: "Адрес", value: "Москва, ул. Кузнечная, 15\nПн–Пт: 9:00–18:00" },
+                  { icon: "Phone", label: "Телефон", value: "+7 (978) 820-00-00" },
+                  { icon: "Mail", label: "Email", value: "info@kovka-belogorsk.ru" },
+                  { icon: "MapPin", label: "Адрес", value: "Крым, г. Белогорск\nПн–Пт: 9:00–18:00" },
                   { icon: "MessageCircle", label: "Мессенджеры", value: "WhatsApp · Telegram" },
                 ].map((c) => (
                   <div key={c.label} className="flex gap-4 items-start">
@@ -549,9 +549,9 @@ export default function Index() {
             <div className="w-6 h-6 border border-white/15 flex items-center justify-center">
               <div className="w-2 h-2" style={{ background: GOLD, clipPath: "polygon(50% 0%, 100% 100%, 0% 100%)" }} />
             </div>
-            <span className="text-white/35 text-sm" style={{ fontFamily: "Cormorant Garamond, serif" }}>КовкаМастер</span>
+            <span className="text-white/35 text-sm" style={{ fontFamily: "Cormorant Garamond, serif" }}>Студия ковки Белогорск</span>
           </div>
-          <p className="text-xs text-white/18 tracking-wider">© 2024 КовкаМастер. Все права защищены.</p>
+          <p className="text-xs text-white/18 tracking-wider">© 2024 Студия ковки Белогорск. Все права защищены.</p>
           <div className="flex gap-6">
             {[
               { label: "Портфолио", id: "portfolio" },
